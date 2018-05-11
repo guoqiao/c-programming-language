@@ -8,6 +8,8 @@ int main() {
 	upper = 300;
 	step = 20;
 
+	printf("  F      C\n");
+
 	fahrenheit = lower;
 	while (fahrenheit <= upper) {
 		celsius = 5.0 * (fahrenheit - 32.0) / 9.0;
